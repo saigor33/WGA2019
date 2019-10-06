@@ -8,7 +8,7 @@ using UnityEngine;
 public class Plate : MonoBehaviour
 {
     private GameObject _cell; //У каждой плитки своя ячейка, если _cell==null, значит на текущий момент плитка пуста
-    private string _nameTypeCell = ""; //названия ячейки, которая находится на плитки
+    private string _nameTypeCell = ""; //название ячейки, которая находится на плитки
 
     public GameObject Cell {
         get 
